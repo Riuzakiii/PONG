@@ -1,0 +1,6 @@
+[submodule "submodules/SDLYogurt"]
+	path = submodules/SDLYogurt
+	url = git@github.com:Riuzakiii/SDLYogurt.git
+[submodule "cmake/sdl2"]
+	path = cmake/sdl2
+	url = https://github.com/opeik/cmake-modern-findsdl2

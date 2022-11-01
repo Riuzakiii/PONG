@@ -1,0 +1,36 @@
+﻿Language:        Cpp
+BasedOnStyle:  LLVM
+AlignAfterOpenBracket : true
+AccessModifierOffset: -4 #Modified
+AllowAllParametersOfDeclarationOnNextLine : false
+AllowShortEnumsOnASingleLine: false #Modified
+BinPackParameters : false
+BinPackArguments : false
+BraceWrapping:
+  AfterCaseLabel:  true #modified
+  AfterClass:      true #modified
+  AfterControlStatement: Always #modified
+  AfterEnum:       true #modified
+  AfterFunction:   true #modified
+  AfterNamespace:  true #modified
+  AfterObjCDeclaration: false
+  AfterStruct:     true #modified
+  AfterUnion:      true #modified
+  AfterExternBlock: true #modified
+  BeforeCatch:     true #modified
+  BeforeElse:      true #modified
+  BeforeLambdaBody: false
+  BeforeWhile:     true #modified
+  IndentBraces:    false
+  SplitEmptyFunction: true
+  SplitEmptyRecord: true
+  SplitEmptyNamespace: true
+BreakBeforeBraces: Allman #Modified
+ColumnLimit:     80
+ConstructorInitializerIndentWidth: 4
+ContinuationIndentWidth: 4
+IndentWidth:     4
+IndentWrappedFunctionNames: true #Modified
+NamespaceIndentation: Inner #Modified
+PointerAlignment: Left #Modified
+SpaceBeforeParens: NonEmptyParentheses #Modified

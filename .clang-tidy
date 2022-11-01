@@ -1,0 +1,2 @@
+Checks: 'bugprone-*,cert-*,concurrency-*,cppcoreguidelines-*,modernize-*,performance-*,portability-*,readability-*,-modernize-use-trailing-return-type,-readability-identifier-length'
+WarningsAsErrors: 'bugprone-*,cert-*,concurrency-*,cppcoreguidelines-*,modernize-*,performance-*,portability-*,readability-*,-readability-make-member-function-const,-bugprone-easily-swappable-parameters,-readability-function-cognitive-complexity,-cppcoreguidelines-avoid-magic-numbers,-readability-magic-numbers,-cppcoreguidelines-macro-usage'

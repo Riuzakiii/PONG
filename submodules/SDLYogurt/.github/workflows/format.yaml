@@ -1,0 +1,10 @@
+﻿name : format
+on : push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # This step checks out a copy of your repository.
+      - uses: actions/checkout@v2
+      - run : cd format && sh format.sh
+      - run : git diff --exit-code 
